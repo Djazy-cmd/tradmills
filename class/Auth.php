@@ -25,6 +25,6 @@ class Auth{
             $token
             ]);
             $user_id = $db->lastInsertId();
-            mail()
+            mail();
     }
 }

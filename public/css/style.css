@@ -1,0 +1,267 @@
+.item{
+    display: flex;
+    justify-content: space-between;
+    width:87%;
+    list-style: none;
+}
+.entête{
+    border: 1px solid black;
+    background-color: brown;
+   
+}
+body{
+    background-image:url("image/bitcoin.jpg");
+}
+.img{
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+li{
+    margin: 10px;
+    font-size: 0.82em;
+    cursor: pointer;
+}
+.link{
+    text-decoration: none;
+    margin: 10px;
+}
+.logo{
+    width: 30%;
+}
+.gauche{
+    width: 50%;
+    margin:100px;
+}
+
+.droite{
+    width: 50%;
+    margin:100px;
+
+}
+.corps{
+    display: flex;
+}
+.slo{
+     font-size: 1.3em;
+     font-weight: bold;
+}
+.gan{
+    font-size: 1.1em;
+}
+.comp{
+    text-decoration: none;
+    margin: 10px;
+    border: 1px solid  #288feb;;
+    height: 35px;
+    border-radius: 2px 2px 2px 2px;
+    background-color: #288feb;
+}
+.but{
+    display: flex;
+    
+}
+.lien{
+    text-decoration: none;
+    margin: 10px;
+    color: white;
+    font-size: 0.95em;
+   
+}
+#cle{
+    margin: 5px;
+}
+.about{
+    width: 80%;
+    align-items: center;
+    margin-left: 100px;
+    line-height: 25px;
+}
+.pro{
+    width: 70%;
+}
+.title{
+    text-align: center;
+    line-height:1px;
+}
+.plan{
+    display: flex;
+    
+    align-items: center;
+    width: 70%;
+    margin-left: 30px;
+}
+.trait{
+    border: 1px solid #288feb;
+    width: 5%;
+    height: 7px;
+    align-items: center;
+    background-color: #288feb;
+}
+.titles{
+    text-align: center;
+    margin-top: 80px;
+}
+.entre{
+    display: flex;
+    justify-content: center;
+}
+.stand{
+    border: 9px solid #288feb;
+    width: 20%;
+    text-align: center;
+    margin-top:30px;
+    margin-left: 90px;
+    background-color: #288feb;
+    box-shadow: 4px 4px #288feb;
+    border-radius: 4px 4px 4px 4px;
+    height: 330px;
+}
+.white{
+    color: white;
+}
+.rapel{
+    font-size: 1.55em;
+    color: white;
+}
+.dpot{
+    background-color: white;
+    border-radius: 2px 2px 2px 2px;
+    height: 35px;
+    margin:70px;
+    width: 40%;
+}
+.dco{
+    text-decoration: none;
+    color:#288feb;
+    
+}
+.ifoot{
+    width: 20%;
+    margin-top: 150px;
+}
+footer{
+    background-color:#212121;
+    height: 390px;
+    margin-top: 50px;
+}
+.final{
+    color: white;
+    
+}
+.prem{
+    text-align: center;
+}
+
+.droit{
+    color: white;
+    text-align: center;
+}
+.mage{
+        width: 150%;
+}
+.re{
+    border: 1px solid #212121;
+    height: 120px;
+    background-color: #212121;
+}
+.register{
+    display: flex;
+    margin-top: 50px;
+}
+.form{
+    margin-left: 290px;
+}
+.just{
+    width: 70%;
+    margin-left: 70px;
+}
+.cript{
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 2.5em;
+}
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 190px;
+}
+.titre{
+    width: 10em;
+    height: 15em;
+    display: flex;
+    flex-direction: row;
+}
+.elem{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+}
+.send{
+    background-color: #288feb;
+    width: 25%;
+    height: 460px;
+    margin-top: 20px;
+}
+.contacte{
+    border: 1px solid white;
+    margin-left: 60px;
+    margin-top: 80px;
+    background-color:#288feb;
+    height: 30px;
+    width: 65%;
+}
+.laim{
+
+    border: 1px solid white;
+    margin-left: 60px;
+    background-color: #288feb;
+    height: 30px;
+    width: 65%;
+}
+.sms{
+
+    border: 1px solid white;
+    margin-left: 60px;
+    background-color: #288feb;
+    height: 30px;
+    width: 65%;
+}
+.contac{
+    margin-left: 60px;
+    background-color: #febf3b;
+    height: 30px;
+    width: 65%;
+}
+.us{
+    margin-top: 20px;
+    text-align: center;
+}
+.retra{
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    height: 380px;
+    margin: 80px;
+    width: 80%;
+}
+table{
+    border-collapse: collapse;
+    width: 50%;
+    margin-left: 295px;
+    margin-top: 10px;
+}
+td{
+    border: 1px solid black;
+    height: 50px;
+    display: flex;
+    justify-content: space-around
+}
+.acc{
+    text-decoration: none;
+}
+.col{
+    background-color: #277ea4;
+}
