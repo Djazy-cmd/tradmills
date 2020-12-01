@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>index</title>
-    <link rel="stylesheet" href="../public/css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
     <div class="main">
@@ -31,7 +31,7 @@
             <p class="gan">Invest for your freedown</p>
             <div class="but">
                 <div class="comp">
-                    <p id="cle"><a class="lien" href="../public/pages/register.php">OPEN AN ACCOUNT</a></p>
+                    <p id="cle"><a class="lien" href="../pages/register.php">OPEN AN ACCOUNT</a></p>
                 </div>
                 <div class="comp">
                    <p id="cle"> <a class="lien" href="../public/pages/login.php">MEMBER LOGIN</a></p>

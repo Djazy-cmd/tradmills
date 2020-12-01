@@ -9,13 +9,13 @@ define('__ROOT__', dirname(dirname(__DIR__)));
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../public/css/style.css">
     <title>register</title>
 </head>
 
 <?php
 
-require_once __ROOT__. '/loader/autoloader.php';
+require_once '../loader/autoloader.php';
 
 
 
@@ -67,7 +67,7 @@ echo "</pre>"
         <form method="POST">
         <div class="register">
             <div class="imga">
-                <img class= "mage"src="../inc/index.jpeg" alt="image btc">
+                <img class= "mage"src="../public/inc/index.jpeg" alt="image btc">
             </div>
             <div class="form">
                 <p>
