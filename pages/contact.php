@@ -8,7 +8,7 @@
 </head>
 <body>
     <div class="con">
-        <?php require '../inc/header.php';?>
+        <?php require '../public/inc/header.php';?>
         <div class="elem">
             <div class="con">
                 <p>(+44) 20 3286 0064</p>
@@ -39,6 +39,6 @@
             </form>
         </div>
     </div>
-   <?php require '../inc/footer.php';?>
+   <?php require '../public/inc/footer.php';?>
 </body>
 </html>
