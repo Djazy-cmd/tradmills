@@ -18,10 +18,10 @@
             <p class="gan">Invest for your freedown</p>
             <div class="but">
                 <div class="comp">
-                    <p id="cle"><a class="lien" href="index.php?p=register">OPEN AN ACCOUNT</a></p>
+                    <p id="cle"><a class="lien" href="../pages">OPEN AN ACCOUNT</a></p>
                 </div>
                 <div class="comp">
-                   <p id="cle"> <a class="lien" href="index.php?p=login">MEMBER LOGIN</a></p>
+                   <p id="cle"> <a class="lien" href="../login">MEMBER LOGIN</a></p>
                 </div>
             </div>
         </div>

@@ -2,57 +2,36 @@
 
 require_once '../loader/autoloader.php';
 
-if (isset($_GET['p'])){
 
-    $p = $_GET['p'];
-}else{
 
-    $p = 'home';
-}
+$router = new Router($_GET['url']);
 
-ob_start();
-
-if ($p === 'home') {
+$router->get('/public', function(){
 
     require '../pages/home.php';
-}
 
-elseif($p === 'register'){
+});
 
-    require '../pages/register.php';
-}
+$router->get('/pages', function(){
 
-elseif($p === 'login'){
+    require_once '../pages/register.php';
+
+});
+
+$router->get('/login', function(){
 
     require '../pages/login.php';
-}
 
-elseif($p === 'history'){
+});
 
-    require '../pages/history.php';
-}
 
-elseif($p === 'deposit'){
+$router->get('/pages/:id-:slug', function($id, $slug){
+    
+    echo "$slug: $id";
+})->with('id', '[0-9]+')->with('slug', '([a-z\-0-9]+)');
 
-    require '../pages/deposit.php';
-}
 
-elseif($p === 'contact'){
 
-    require '../pages/contact.php';
-}
-elseif($p === 'cashin'){
-
-    require '../pages/cashin.php';
-}
-
-elseif($p === 'withdrall'){
-
-    require '../pages/withdrall.php';
-}
-
-$content = ob_get_clean();
-
-require '../pages/template/defaulte.php';
+$router->run();
 
 ?>
